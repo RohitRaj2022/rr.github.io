@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+    height: 70px;
+
+}
+
+.nav-list {
+    width: 43%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav-list li {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 20px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-list li a:hover {
+    color: grey;
+
+}
+
+.rightNav {
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 8px solid white;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('main/lib/blue.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.logo {
+    width: 20%;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.logoName{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: rgb(11, 11, 102);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.btn {
+    position: relative;
+    padding: 7px 25px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: White;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+#search {
+    padding: 7px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 10px ;
+}
+
+
+
+
+
+
+
+
+
+
+.signup-box{
+    width: 80%;
+    max-width: 370px;
+    border: 1px solid rgba(116, 116, 116, 0.76);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: .75rem;
+    padding: 10px 0px;
+
+
+
+}
+
+.signup-box img{
+    width: 30%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid rgb(179, 174, 174);
+    border-radius: 50%; 
+    
+}
+
+.signup-box input{
+    width: 85%;
+    height: 40px;
+    margin: 12px auto;
+    display: block  ;
+    display: 1px solid rgba(116, 116, 116, 0.76);
+    border-radius: .75rem;
+    font-family: 'Segon UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+.signup-box input:focus{
+    outline: none;
+}
+#check{
+    width: 20px;
+    max-width: 20px;
+    margin: 0 0 0 5%;
+    padding: 0;
+    height: 20px;
+    display: inline;
+
+}
+
+.label{
+    font-family:'Segon UI', Tahoma, Geneva, sans-serif ;
+    font-size: 15px;
+    padding-left: 9px;
+    position: absolute;
+
+}
+
+#submit-btn{
+    width: auto;
+    padding: 0 30px;
+    background-color: #5271FF;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    color: white;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    height: 50px;
+    transition: 0.15s;
+    float: right;
+    margin: 35px 5% 12px 0;
+    cursor: default;
+
+}
+
+.submit-div{
+    height: 200px;
+    width: 80%;
+    max-width: 300px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: .75rem;
+    display: 1px solid rgba(116, 116, 116, 0.76);
+    display: block;
+    
+
+}
+
+.submit-div h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.copyright{
+    display: block;
+    position: absolute;
+    padding: 5px;
+    margin-top: 15px;
+    bottom: 0%;
+    /* top: 100%;*/
+    left: 40%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
